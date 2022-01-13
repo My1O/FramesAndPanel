@@ -10,6 +10,8 @@ public class JfMenu {
 		
 	}
 	//instancia de marco2
-	Marco2Centrado m2 = new Marco2Centrado();
+	//Marco2Centrado m2 = new Marco2Centrado();
+	//Marco dibujo
+	MarcoDibujo m2 = new MarcoDibujo();
 	
 }

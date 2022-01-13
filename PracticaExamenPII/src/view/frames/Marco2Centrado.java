@@ -33,6 +33,7 @@ public class Marco2Centrado extends JFrame{
 		add(lDibujo);
 		lDibujo.setBackground(Color.orange);
 		
+		
 	}
 	Lamina1 miLamina = new Lamina1();
 	LaminaDibujo lDibujo = new LaminaDibujo();
