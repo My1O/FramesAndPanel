@@ -20,7 +20,7 @@ public class LaminaImagen extends JPanel{
 			//File miImagen = new File("src/imagenes/codigo.jpg");
 			try {
 				//imagen = ImageIO.read(miImagen);
-				imagen = ImageIO.read(new File("src/imagenes/codigo.jpg"));
+				imagen = ImageIO.read (new File("src/imagenes/circuito.jpg")) ;
 			} catch (IOException e) {
 				// TODO Auto-generated catch block
 				e.getMessage();
