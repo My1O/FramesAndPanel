@@ -3,6 +3,8 @@ import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.Image;
 import java.awt.Toolkit;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
 import javax.swing.*;
 
@@ -12,6 +14,10 @@ import view.panel.LaminaDibujo;
 
 public class Marco2Centrado extends JFrame{
 	
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	public Marco2Centrado()
 	{
 		//setBounds(350,450,300,250);
@@ -37,5 +43,7 @@ public class Marco2Centrado extends JFrame{
 	}
 	Lamina1 miLamina = new Lamina1();
 	LaminaDibujo lDibujo = new LaminaDibujo();
+	
+	
 	
 }

@@ -7,6 +7,7 @@ public class JfMenu {
 	{
 		m2.setVisible(true);
 		m2.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		//m2.setDefaultCloseOperation(JFrame.);
 		
 	}
 	//instancia de marco2
