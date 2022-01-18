@@ -59,7 +59,7 @@ class MarcoEscritor implements ActionListener
 		{
 			try 
 			{
-				file = new FileWriter ("/ingreso.txt");
+				file = new FileWriter ("ingreso.txt");
 				file.write(NombreDeUsuario.getText() + " : " + userName.getText() );
 				file.write(Contrasena.getText() + " : " + pass.getText() );
 				file.close();

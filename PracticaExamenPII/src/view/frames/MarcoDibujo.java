@@ -27,7 +27,7 @@ public class MarcoDibujo extends JFrame {
 		setTitle("Marco 2 Centrado con Imagen");
 		Image miIcono = miPantalla.getImage("src/imagenes/hand.jpg");
 		setIconImage(miIcono);
-		
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		add(lm);
 		
 	}
